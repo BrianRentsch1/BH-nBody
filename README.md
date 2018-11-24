@@ -1,11 +1,11 @@
 # BH-nBody
 An n-body physics simulation based on the Barnes-Hut algorithm. Completed by Brian Rentsch for CSC 250 at TCNJ.
 
-To run the program:
+<b>To run the program:</b>
   1. Compile the files with `javac NBody.java Body.java BHTree.java Quad.java StdIn.java StdOut.java StdDraw.java`
   2. Use `java NBody < saturnrings.txt` to run the program with the provided test file.
   
-How the test files are organized (in case you want to make your own):<br>
+<b>How the test files are organized (in case you want to make your own):</b><br>
   1. The first number is the number of celestial bodies you will be simulating<br>
   2. The second number is the radius of the universe<br>
   3. The remaining lines of the file should contain <b>initial values</b> for each body, with each line organized like this:<br>
