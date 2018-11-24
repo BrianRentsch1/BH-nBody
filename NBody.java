@@ -2,7 +2,9 @@
 CSC 250 Fall 2017 Project 3
 Brian Rentsch
 
-Usage: java NBody < "your_test_file.txt"
+Usage:
+-Compile: javac NBody.java Body.java BHTree.java Quad.java StdIn.java StdOut.java StdDraw.java
+-Run: java NBody < your_test_file.txt (you can use the provided saturnrings.txt)
 *******************************************/
 
 import java.awt.Color;
